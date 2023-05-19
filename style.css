@@ -668,10 +668,16 @@ a:visited {
     color: aliceblue;
     font-weight: 400;
     background-color: mediumslateblue;
+    cursor: pointer;
 }
 
 .resume-btn .resume-link {
     color: aliceblue;
+}
+
+.resume-btn:hover >*{
+    color: mediumslateblue;
+    cursor: pointer;
 }
 
 .about-para {
