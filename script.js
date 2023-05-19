@@ -131,7 +131,7 @@ var pointerFeature = new ol.Feature({
 // Style the pointer
 var pointerStyle = new ol.style.Style({
   image: new ol.style.Icon({
-    src: './placeholderS.png' // Default pointer icon
+    src: './images/pointer.png' // Default pointer icon
   })
 });
 pointerFeature.setStyle(pointerStyle);
