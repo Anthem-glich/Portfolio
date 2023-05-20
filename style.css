@@ -363,8 +363,9 @@ a:visited {
 
 /* Typewriter styles */
 .typewriter {
-    overflow: hidden;
-    white-space: nowrap;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: pre-line;
     /* border-right: 0.15em solid black; */
     font-family: monospace;
 }
